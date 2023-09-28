@@ -10,6 +10,7 @@ public class Dog implements Pet {
     public void setBreed(String breed) {
         this.breed = breed;
     }
+
     @Override
     public String makeSound() {
         return "Aw, aw!";
@@ -19,4 +20,10 @@ public class Dog implements Pet {
     public String play() {
         return "Catching objects that you throw!";
     }
+
+    @Override
+    public Integer getNoOfLives() {
+        return null;
+    }
+
 }
