@@ -2,7 +2,6 @@ package factoryPattern;
 
 public class Cat implements Pet {
     private Integer noOfLives;
-
     public Integer getNoOfLives() {
         return noOfLives;
     }
@@ -20,4 +19,10 @@ public class Cat implements Pet {
     public String play() {
         return "Catching/pursuing moving objects!";
     }
+
+    @Override
+    public String getBreed() {
+        return null;
+    }
+
 }
